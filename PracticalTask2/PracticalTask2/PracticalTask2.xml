@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PracticalTask2</name>
+    </assembly>
+    <members>
+        <member name="T:PracticalTask2.Chassis">
+            <summary>
+            Класс принимает характеристики шасси авто для вывода на консоль.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Chassis.Weels">
+            <summary>
+            Свойство Weels.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Chassis.Number">
+            <summary>
+            Свойство Number.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Chassis.Load">
+            <summary>
+            Свойство Load.
+            </summary>
+        </member>
+        <member name="M:PracticalTask2.Chassis.PrintChassis">
+            <summary>
+            Выводит на консоль характеристики шасси.
+            </summary>
+        </member>
+        <member name="T:PracticalTask2.Engine">
+            <summary>
+            Класс принимает характеристики двигателей авто для вывода на консоль.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Engine.Power">
+            <summary>
+            Свойство Power.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Engine.Capacity">
+            <summary>
+            Свойство Capacity.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Engine.Type">
+            <summary>
+            Свойство Type.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Engine.SerialNumber">
+            <summary>
+            Свойство SerialNumber.
+            </summary>
+        </member>
+        <member name="M:PracticalTask2.Engine.PrintEngine">
+            <summary>
+            Выводит на консоль характеристики двигателей.
+            </summary>
+        </member>
+        <member name="T:PracticalTask2.Program">
+            <summary>
+            Класс Program обеспечивает вывод информации по определенному транспорту.
+            </summary>
+            <remarks>
+            Класс принимает число, соответствующее типу выбранного автомобиля, сверяет 
+            его с 4 возможными вариантами и, если соответствует, выводит соответствующую 
+            информацию по характеристикам конкретного автомобиля на консоль.
+            </remarks>
+        </member>
+        <member name="M:PracticalTask2.Program.Main(System.String[])">
+            <summary>
+            Точка входа в программу.
+            </summary>
+            <param name="args">Список аргументов для командной строки.</param>
+        </member>
+        <member name="M:PracticalTask2.Program.Display(PracticalTask2.Chassis,System.String)">
+            <summary>
+            Выводит на консоль все характеристики по конкретному типу авто.
+            </summary>
+            <param name="auto">Принимает объект, представляющий конкретное 
+            авто.</param>
+            <param name="name">Навание авто.</param>
+            <seealso cref="T:PracticalTask2.Chassis">
+            Тип Chassis.
+            </seealso>
+        </member>
+        <member name="T:PracticalTask2.Transmission">
+            <summary>
+            Класс принимает характеристики трансмиссий авто для вывода на консоль.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Transmission.TransType">
+            <summary>
+            Свойство TransType.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Transmission.Gear">
+            <summary>
+            Свойство Gear.
+            </summary>
+        </member>
+        <member name="P:PracticalTask2.Transmission.Manufacturer">
+            <summary>
+            Свойство Manufacturer.
+            </summary>
+        </member>
+        <member name="M:PracticalTask2.Transmission.PrintTransmission">
+            <summary>
+            Выводит на консоль характеристики трансмиссий.
+            </summary>
+        </member>
+    </members>
+</doc>
